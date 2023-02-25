@@ -2,14 +2,18 @@
 using namespace std;
 int main()
 {
- int a;
- int b;
- int sum;
- cout<<"Type a number ";
+ int a,b;
+ cout<<"Enter first number ";
  cin>>a;
- cout<<"typer another number";
+ cout<<"Enter seconde number ";
  cin>>b;
- sum = a+b;
- cout<<"your answer is " << sum;
+ if (a>b)
+ {
+    cout<<"First number is greater ";
+ }
+ else
+ {
+    cout<<"Second number is greater ";
+ }
  return 0;
 }
